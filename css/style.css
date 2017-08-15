@@ -1,0 +1,206 @@
+body {
+       margin:0; 
+	   padding:0;
+    }
+html, body, #bg {
+       height:100%;
+       width:100%;
+               }
+#bg {
+       position:absolute; 
+       left:0;
+       right:0;
+       bottom:0;
+       top:0;
+       overflow:hidden;
+       z-index:0;
+   }
+#bg img {
+       width:100%;
+       min-width:100%;
+       min-height:100%;
+       }
+#content {
+       z-index:1;
+         }
+
+#logo a{
+   display:block; 
+   position:relative; 
+   margin-top:20px; 
+   margin-left:40px; 
+   font-size:82px; 
+   color:#444444; 
+   font-weight:900; 
+   font-family:Agency FB;
+   text-decoration:none;
+      }
+   
+#logo_stmt {
+   position:absolute; 
+   margin-top:-15px; 
+   margin-left:25px; 
+   font-size:24px; 
+   color:#444444; 
+   font-family:Agency FB;
+           }
+
+#nav {
+   display:block; 
+   width:625px; 
+   height:50px; 
+   background:#efefef; 
+   position:relative; 
+   margin: -50px auto;
+   font-family:Agency FB;
+   }
+   
+#nav td a{
+   font-size:30px; 
+   font-weight:900;
+   text-decoration:none; 
+   padding:22px; 
+   color:#333333;
+       }
+   
+#nav td a:hover {
+  opacity: 0.8;
+              }
+
+#txtarea {
+   display:block; 
+   width:625px; 
+   height:250px; 
+   position:relative; 
+   margin: 120px auto;
+   font-family:Agency FB;
+   font-size: 20px;
+   font-weight: bold;
+         } 
+   
+select {
+    padding:5px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+     }
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:18px}
+}
+
+label {position:relative}
+label:after {
+    content:'<>';
+    font:11px "Consolas", monospace;
+    color:#aaa;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    right:8px; top:2px;
+    padding:0 0 2px;
+    border-bottom:1px solid #ddd;
+    position:absolute;
+    pointer-events:none;
+          }
+		  
+label:before {
+    content:'';
+    right:6px; top:0px;
+    width:20px; height:20px;
+    background:#f8f8f8;
+    position:absolute;
+    display:block;
+            }
+
+button {
+	width:80px; 
+	height: 28px; 
+	background:#efefef; 
+	color:#444444; 
+	font-weight:900;
+	-webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+	margin-left:5px;
+	cursor:pointer;
+	}
+
+input {
+	width:80px; 
+	height: 28px; 
+	background:#efefef; 
+	color:#444444; 
+	font-weight:900;
+	-webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+	margin-left:5px;
+	cursor:pointer;
+	}	
+#feedback {
+   display:block; 
+   width:120px; 
+   height:40px; 
+   background:#efefef; 
+   position:relative; 
+   margin: 5px auto;
+   float: right;
+   font-family:Agency FB;
+          }
+
+#feedback a{
+   font-size:28px; 
+   font-weight:700;
+   text-decoration:none; 
+   padding:10px; 
+   color:#333333;
+		  }
+		  
+.inp
+{
+   font-size:30px; 
+   font-weight:900;
+   text-decoration:none; 
+   padding:0px; 
+   color:#333333;
+   border:0;
+   font-family:Agency FB;
+   background:#efefef;
+   cursor:pointer;
+   position:relative;
+   top:-25px;
+}		  
+
+.inp:hover {
+  opacity: 0.8;
+              }
